@@ -2,6 +2,8 @@
   "functions": [
     "EhActivityLogsExt",
     "EhDiagnosticLogsExt",
-    "EhMetricsExt"
+    "EhDiagnosticLogsExt2",
+    "EhDiagnosticLogsExt3",
+    "EhDiagnosticLogsExt4"
   ]
 }
