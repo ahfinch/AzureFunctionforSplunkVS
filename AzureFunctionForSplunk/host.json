@@ -1,6 +1,7 @@
 {
   "functions": [
     "EhActivityLogsExt",
-    "EhDiagnosticLogsExt"
+    "EhDiagnosticLogsExt",
+    "EhMetricsExt"
   ]
 }
