@@ -31,11 +31,11 @@ using System.Threading.Tasks;
 
 namespace AzureFunctionForSplunk
 {
-    public static class EhDiagnosticLogsExt3
+    public static class EhDiagnosticLogsExt4
     {
-        [FunctionName("EhDiagnosticLogsExt3")]
+        [FunctionName("EhDiagnosticLogsExt4")]
         public static async Task Run(
-            [EventHubTrigger("%input-hub-name-diagnostic-logs3%", Connection = "hubConnection", ConsumerGroup = "%consumer-group-diagnostic-logs%")]string[] messages,
+            [EventHubTrigger("%input-hub-name-diagnostic-logs4%", Connection = "hubConnection", ConsumerGroup = "%consumer-group-diagnostic-logs%")]string[] messages,
             IBinder blobFaultBinder,
             Binder queueFaultBinder,
             TraceWriter log)
